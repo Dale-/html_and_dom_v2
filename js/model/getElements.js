@@ -1,3 +1,6 @@
+var _ = require('lodash');
+var $ = require('jquery');
+
 function GetElements() {
 }
 

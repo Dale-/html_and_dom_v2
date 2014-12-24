@@ -1,3 +1,5 @@
+var _ = require('lodash');
+
 function Judge(name, answer, defaultScore) {
   Question.call(this, name, answer, defaultScore);
 }

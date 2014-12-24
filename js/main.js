@@ -1,5 +1,4 @@
 var _ = require('lodash');
-var $ = require('jquery');
 var CheckEmpty = require('.model/check-empty');
 var GetElements = require('.model/getElements');
 

@@ -1,3 +1,6 @@
+var _ = require('lodash');
+var $ = require('jquery');
+
 function SingleChoice(name, answer, defaultScore) {
   Question.call(this, name, answer, defaultScore);
 }

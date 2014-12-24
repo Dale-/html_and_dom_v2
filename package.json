@@ -5,6 +5,6 @@
     "lodash": "^2.4.1"
   },
   "scrpits": {
-    
+    "start": "watchify -d main.js -o app.js"
   }
 }
