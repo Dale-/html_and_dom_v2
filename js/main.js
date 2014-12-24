@@ -9,7 +9,6 @@ $(document).ready(function(){
 });
 
 function checkForm() {
-
   if(!CheckEmpty.checkHead()) {
     $('#myModal').modal('show');
     return false;
