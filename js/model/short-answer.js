@@ -1,5 +1,4 @@
-var _ = require('lodash');
-var $ = require('jquery');
+var Question = require('./question');
 
 function ShortAnswer(name, answer, defaultScore) {
   Question.call(this, name, answer, defaultScore);
@@ -14,4 +13,4 @@ ShortAnswer.prototype.getScore = function(documentObject) {
   return this.answer === documentObject[0].value ? this.defaultScore : 0;
 };
 
-module.ShortAnswer = ShortAnswer;
+module.exports = ShortAnswer;

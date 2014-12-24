@@ -1,8 +1,15 @@
+var CheckEmpty = require('./model/check-empty');
+var GetElements = require('./model/getElements');
 var _ = require('lodash');
-var CheckEmpty = require('.model/check-empty');
-var GetElements = require('.model/getElements');
+
+$(document).ready(function(){
+  $('#submit').on('click',function(){
+    return checkForm();
+  });
+});
 
 function checkForm() {
+  alert('sssss');
 
   if(!CheckEmpty.checkHead()) {
     $('#myModal').modal('show');

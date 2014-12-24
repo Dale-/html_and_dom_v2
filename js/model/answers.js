@@ -1,4 +1,8 @@
-
+var FillIn = require('./fill-in');
+var SingleChoice = require('./single-choice');
+var MultipleChoice = require('./multiple-choice');
+var Judge = require('./true-or-false');
+var ShortAnswer = require('./short-answer');
 
 function Answers() {
 }

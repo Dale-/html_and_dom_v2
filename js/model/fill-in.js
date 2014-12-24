@@ -1,5 +1,6 @@
 var _ = require('lodash');
-var $ = require('jquery');
+var Question = require('./question');
+
 
 function FillIn(name, answer, defaultScore) {
   Question.call(this, name, answer, defaultScore);
@@ -27,4 +28,4 @@ FillIn.prototype.getScore = function(documentObject) {
   return score;
 };
 
-module.FillIn = FillIn;
+module.exports = FillIn;

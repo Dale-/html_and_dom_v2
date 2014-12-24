@@ -1,6 +1,3 @@
-var _ = require('lodash');
-var $ = require('jquery');
-
 function Question(name, answer, defaultScore) {
   this.name = name;
   this.answer = answer;
@@ -10,4 +7,4 @@ function Question(name, answer, defaultScore) {
 Question.prototype.getScore = function() {
 };
 
-module.Question = Question;
+module.exports = Question;

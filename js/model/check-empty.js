@@ -1,5 +1,4 @@
 var _ = require('lodash');
-var $ = require('jquery');
 
 function CheckEmpty() {
 }
@@ -21,4 +20,4 @@ CheckEmpty.checkHead = function() {
   return empty_count === 0;
 };
 
-module.CheckEmpty = CheckEmpty;
+module.exports = CheckEmpty;

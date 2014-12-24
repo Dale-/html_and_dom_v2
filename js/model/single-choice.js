@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var $ = require('jquery');
+var Question = require('./question');
 
 function SingleChoice(name, answer, defaultScore) {
   Question.call(this, name, answer, defaultScore);
@@ -16,4 +16,4 @@ SingleChoice.prototype.getScore = function(documentObject) {
   return this.answer === value ? this.defaultScore : 0;
 };
 
-module.SingleChoice = SingleChoice;
+module.exports = SingleChoice;

@@ -1,5 +1,5 @@
 var _ = require('lodash');
-var $ = require('jquery');
+var Answers = require('./answers');
 
 function GetElements() {
 }
@@ -17,4 +17,4 @@ GetElements.getElements = function() {
   return score;
 };
 
-module.GetElements = GetElements;
+module.exports = GetElements;

@@ -1,4 +1,5 @@
 var _ = require('lodash');
+var Question = require('./question');
 
 function Judge(name, answer, defaultScore) {
   Question.call(this, name, answer, defaultScore);
@@ -16,4 +17,4 @@ Judge.prototype.getScore = function(documentObject) {
   return this.answer === value ? this.defaultScore : 0;
 };
 
-module.Judge = Judge;
+module.exports = Judge;
