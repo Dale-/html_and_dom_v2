@@ -1,0 +1,79 @@
+body {
+  margin:0px auto;
+  background-color:#F0F0F0;
+}
+
+table {
+  margin:0px auto;
+  height:30px;
+  vertical-align:middle;
+  text-align:center;
+  line-height:30px;
+  cellpadding:10px;
+  cellspacing:10px;
+}
+
+input {
+  border:0px;
+  text-align:center;
+}
+
+h1 {
+  text-align:center;
+}
+
+#score .modal-content {
+  height: 200px;
+  width: 200px;
+  margin: 200px auto;
+  text-align:center;
+  font-size:40px;
+  line-height:80px;
+  color:#980000;
+}
+
+.top {
+  width:100%;
+  height:60px;
+  background-color:#383838;
+  margin:0;
+  padding:0;
+}
+
+.head {
+  position:absolute;
+  margin-top:-20px;
+  padding:0;
+  width:100%;
+  height:200px;
+  background-color:#E8E8E8;
+}
+
+.longUnderline {
+  border-bottom:2px solid;
+  border-color:#808080;
+  width:150px;
+}
+
+.underline {
+  border-bottom:2px solid;
+  border-color:#808080;
+  width:80px;
+}
+
+.main {
+  width:100%px;
+  padding-left:150px;
+  padding-top:200px;
+}
+
+.button {
+  margin-left:600px;
+}
+
+.bottom {
+  margin-top:20px;
+  width:100%;
+  height:40px;
+  background-color:#383838;
+}
