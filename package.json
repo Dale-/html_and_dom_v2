@@ -4,7 +4,7 @@
     "jquery": "^2.1.3",
     "lodash": "^2.4.1"
   },
-  "scrpits": {
+  "scripts": {
     "start": "watchify -d js/main.js -o js/app.js"
   }
 }
